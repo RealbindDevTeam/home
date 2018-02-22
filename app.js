@@ -12,11 +12,11 @@ var descargar_aplicacion = require('./routes/descargar-aplicacion');
 var tienes_un_restaurante = require('./routes/tienes-un-restaurante');
 var formulario_contacto = require('./routes/formulario-contacto');
 var gracias = require('./routes/gracias');
-var establishments = require('./routes/establishment');
+//var establishments = require('./routes/establishment');
 var page_not_found = require('./routes/404');
 
 var app = express();
-mongoose.connect('mongodb://127.0.0.1:3001/meteor');
+//mongoose.connect('mongodb://127.0.0.1:3001/meteor');
 
 // view engine setup
 app.engine('.hbs', expressHbs({
@@ -37,7 +37,7 @@ app.get('/descargar-aplicacion', descargar_aplicacion);
 app.get('/tienes-un-restaurante', tienes_un_restaurante);
 app.get('/formulario-contacto', formulario_contacto);
 app.get('/gracias', gracias);
-app.get('/establishments', establishments);
+//app.get('/establishments', establishments);
 app.get('*', page_not_found);
 
 // catch 404 and forward to error handler
