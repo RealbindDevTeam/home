@@ -17,6 +17,7 @@ $(function () {
 
     if (isTouch) { $('.revealOnScroll').addClass('animated'); }
 
+    $window.on('load', revealOnScroll);
     $window.on('scroll', revealOnScroll);
 
     function revealOnScroll() {
