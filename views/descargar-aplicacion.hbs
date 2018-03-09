@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Odernar desde el celular | comeygana</title>
-    <meta name="description" content="">
+    <title>Ordena desde el celular, acumula y redime puntos | comeygana</title>
+    <meta name="description" content="Con come y gana podrás ganar premios por comer en tus restaurantes favoritos">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
-    <!-- Place favicon.ico in the root directory -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -21,7 +23,7 @@
         <div id="sidenav-bg" class="sidenav-bg"></div>
     </header>
 
-    <nav class="mat-toolbar">
+    <nav class="mat-toolbar animated fadeInDown">
         <div class="nav-wrapper container">
             <a href="http://www.comeygana.com" class="logo">
                 <img src="img/logo-comeygana.png" alt="comeygana - Fideliza a tus clientes de manera fácil">
@@ -71,7 +73,13 @@
     <article>
         <section class="main app-image">
             <div class="container">
-                <h1>Ordena desde tu celular, acumula y redime tus puntos</h1>
+                <h1 class="animated fadeInDown">Ordena desde tu celular, acumula y redime tus puntos</h1>
+                <div class="width-complete badges-center">
+                    <img src="img/descargar-desde-google-play.png" title="Descargar desde Google Play" alt="Descargar desde Google Play" class="badges animated fadeInDown"
+                        style="margin-right: 8px;" />
+                    <img src="img/descargar-desde-app-store.png" title="Descargar desde App Store" alt="Descargar desde App Store" class="badges animated fadeInDown"
+                    />
+                </div>
             </div>
             <div style="background-color: rgba(21,21,21,.8)"></div>
         </section>
@@ -79,12 +87,14 @@
         <section>
             <div class="container">
                 <div class="get-app">
-                    <div class="left">
-                        <h2>Ingresa el código</h2>
-                        <p>Escanea el código o ingresa el pin que se encuentra en la mesa del restaurante.</p>
+                    <div class="left margin-right">
+                        <h2 class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Ordena desde el celular</h2>
+                        <p class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Escanea o ingresa el código que se encuentra en la mesa del restaurante, podrás visualizar el menú
+                            y ordenar tu comida favorita</p>
                     </div>
                     <div class="right display-mobile">
-                        <img src="img/escanear-codigo.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa">
+                        <img src="img/escanear-codigo.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa" class="card-box-shadow opacity-cero revealOnScroll"
+                            data-animation="fadeInDown" data-timeout="300">
                     </div>
                 </div>
             </div>
@@ -94,11 +104,13 @@
             <div class="container">
                 <div class="get-app">
                     <div class="left display-mobile">
-                        <img src="img/ordena-desde-el-celular.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa">
+                        <img src="img/ordena-desde-el-celular.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa" class="card-box-shadow opacity-cero revealOnScroll"
+                            data-animation="fadeInDown" data-timeout="300">
                     </div>
-                    <div class="right">
-                        <h2>Ordena desde el celular</h2>
-                        <p>Podrás visualizar el menú del restaurante en que te encuentras, y ordenar lo que deseas sin esperas</p>
+                    <div class="right margin-left">
+                        <h2 class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Acúmula puntos</h2>
+                        <p class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Cada vez que ordenes en el restaurante, recibirás puntos que luego podrás redimir por las recompensas
+                            que más te gusten</p>
                     </div>
                 </div>
             </div>
@@ -107,29 +119,32 @@
         <section>
             <div class="container">
                 <div class="get-app">
-                    <div class="left">
-                        <h2>Acúmula puntos</h2>
-                        <p>Cada vez que ordenes en el restaurante. recibirás puntos que posteriormente podrás redimir</p>
+                    <div class="left margin-right">
+                        <h2 class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Gana recompensas</h2>
+                        <p class=" opacity-cero revealOnScroll" data-animation="fadeInDown" data-timeout="300">Redime tus puntos aculados por recompensas en comida, no esperes más para disfrutar de comeygana.
+                            Descargala ya!</p>
                     </div>
                     <div class="right display-mobile">
-                        <img src="img/acumular-puntos.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa">
+                        <img src="img/acumular-puntos.png" title="Escanear el código de la mesa" alt="Escanear el código de la mesa" class="card-box-shadow opacity-cero revealOnScroll"
+                            data-animation="fadeInDown" data-timeout="300">
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="background-color-white">
+        <section class="background-color-white text-align-center">
             <div class="container">
-                <div class="get-app download-section">
+                <!--div class="get-app download-section">
                     <div class="img-center">
-                        <img src="img/menu-desde-iphone.png" title="Ver menú desde el celular" alt="Ver menú desde el celular">
-                        <div class="badges-center">
-                            <img src="img/descargar-desde-app-store.png" title="Descargar desde App Store" alt="Descargar desde App Store" class="badges"
-                            />
-                            <img src="img/descargar-desde-google-play.png" title="Descargar desde Google Play" alt="Descargar desde Google Play" class="badges"
-                            />
-                        </div>
-                    </div>
+                        <img src="img/menu-desde-iphone.png" title="Ver menú desde el celular" alt="Ver menú desde el celular" class="opacity-cero revealOnScroll"
+                            data-animation="fadeInUp" data-timeout="300"-->
+                    <!--/div>
+                </div-->
+                <div class="width-complete badges-center">
+                    <img src="img/descargar-desde-google-play.png" title="Descargar desde Google Play" alt="Descargar desde Google Play" class="badges opacity-cero revealOnScroll"
+                        data-animation="fadeInUp" data-timeout="300" style="margin-right: 8px;" />
+                    <img src="img/descargar-desde-app-store.png" title="Descargar desde App Store" alt="Descargar desde App Store" class="badges opacity-cero revealOnScroll"
+                        data-animation="fadeInUp" data-timeout="300" />
                 </div>
             </div>
         </section>
@@ -169,11 +184,11 @@
                 </a>
             </div>
             <div class="display-flex">
-                <div class="column">
+                <!--div class="column">
                     <p>
                         Premia la fidelidad de tus clientes con comeygana
                     </p>
-                </div>
+                </div-->
                 <div class="column">
                     <ul>
                         <li>
