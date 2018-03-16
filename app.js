@@ -8,7 +8,7 @@ var expressHbs = require('express-handlebars');
 var mongoose = require('mongoose');
 
 var index = require('./routes/index');
-var descargar_aplicacion = require('./routes/descargar-aplicacion');
+var descargar_app = require('./routes/descargar-app');
 var tienes_un_restaurante = require('./routes/tienes-un-restaurante');
 var formulario_contacto = require('./routes/formulario-contacto');
 var gracias = require('./routes/gracias');
@@ -34,7 +34,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.get('/descargar-aplicacion', descargar_aplicacion);
+app.get('/descargar-app', descargar_app);
 app.get('/tienes-un-restaurante', tienes_un_restaurante);
 app.get('/formulario-contacto', formulario_contacto);
 app.get('/gracias', gracias);
