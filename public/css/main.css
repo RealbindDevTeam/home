@@ -533,8 +533,10 @@ article {
     }
 }
 
-.img-hubbog {
+.img-section {
     height: 150px;
+    display: block;
+    margin: 0 auto;
 }
 
 .display-mobile {
